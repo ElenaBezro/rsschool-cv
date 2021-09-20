@@ -55,3 +55,13 @@ footer {
 img_container {
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .servicesContent > ul {
+    grid-template-columns: 1fr;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
