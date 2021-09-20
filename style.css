@@ -1,0 +1,74 @@
+* {
+  color: #1f1e1e;
+}
+@font-face {
+  font-family: Poplight;
+  src: url(./Fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: PopRegular;
+  src: url(./Fonts/Poppins-Regular.ttf);
+}
+
+body {
+  font-family: Poplight;
+}
+
+h1 {
+  color: #310597;
+  margin-bottom: 25px;
+}
+
+a {
+  color: #310597;
+}
+
+header,
+main > section,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main > section {
+  margin: 0 20%;
+}
+
+.contact_type {
+  font-weight: bold;
+}
+
+.italic_text {
+  font-style: italic;
+}
+
+code {
+  color: #310597;
+}
+
+footer {
+  padding-top: 20px;
+  font-size: 13px;
+  background-color: #8b9797;
+}
+
+img_container {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+}
+
+@media (max-width: 320px) {
+  .servicesContent > ul {
+    grid-template-columns: 1fr;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
