@@ -1,1 +1,1 @@
-https://ElenaBezro.github.io/rsschool-cv/cv
+https://ElenaBezro.github.io/rsschool-cv/index
